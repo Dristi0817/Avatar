@@ -1,0 +1,171 @@
+Script started on 2025-10-15 21:04:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="117" LINES="17"]
+[?2004h[0;32m@Dristi0817 [0m➜ [1;34m/workspaces/Avatar [0;36m([1;31mmain[0;36m) [0m$ [7mg++ -std=c++11 dominoes.cpp -o dominoes[27m[1Pg++ -std=c++11 dominoes.cpp -o dominoes
+[?2004l[?2004h[0;32m@Dristi0817 [0m➜ [1;34m/workspaces/Avatar [0;36m([1;31mmain[0;36m) [0m$ ./dom[Kminoes 
+[?2004l========================================
+      DOMINOES GAME - 2 PLAYER MODE     
+========================================
+Enter Player 1 name: Smriti 
+Enter Player 2 name: Dristi 
+
+[GAME INITIALIZED]
+Type 'exit' anytime to quit.
+
+--- Turn 1 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[0|4] 3:[3|3] 4:[2|2] 5:[4|6] 6:[2|5] 
+Enter domino index to play (0-6), 'draw' to draw, or 'exit' to quit: 2
+Smriti  played [4|0] on the tail.
+
+Table: [4|0]
+Head: 4 | Tail: 0
+Remaining in pool: 14
+
+--- Turn 2 ---
+
++++ Dristi 's Turn +++
+Dristi 's Hand: 0:[0|3] 1:[3|4] 2:[2|4] 3:[0|2] 4:[0|5] 5:[5|5] 6:[3|5] 
+Enter domino index to play (0-6), 'draw' to draw, or 'exit' to quit: 3
+Play on 'head' or 'tail'? head
+Dristi  played [2|0] on the head.
+
+Table: [2|0][4|0]
+Head: 2 | Tail: 0
+Remaining in pool: 14
+
+--- Turn 3 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[2|2] 4:[4|6] 5:[2|5] 
+Enter domino index to play (0-5), 'draw' to draw, or 'exit' to quit: 1
+That domino cannot be played on either side. Try again.
+
+Table: [2|0][4|0]
+Head: 2 | Tail: 0
+Remaining in pool: 14
+
+--- Turn 4 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[2|2] 4:[4|6] 5:[2|5] 
+Enter domino index to play (0-5), 'draw' to draw, or 'exit' to quit: 3
+Play on 'head' or 'tail'? head
+Smriti  played [2|2] on the head.
+
+Table: [2|2][2|0][4|0]
+Head: 2 | Tail: 0
+Remaining in pool: 14
+
+--- Turn 5 ---
+
++++ Dristi 's Turn +++
+Dristi 's Hand: 0:[0|3] 1:[3|4] 2:[2|4] 3:[0|5] 4:[5|5] 5:[3|5] 
+Enter domino index to play (0-5), 'draw' to draw, or 'exit' to quit: 3
+Play on 'head' or 'tail'? tail
+Dristi  played [0|5] on the tail.
+
+Table: [2|2][2|0][4|0][0|5]
+Head: 2 | Tail: 5
+Remaining in pool: 14
+
+--- Turn 6 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 4:[2|5] 
+Enter domino index to play (0-4), 'draw' to draw, or 'exit' to quit: 3
+That domino cannot be played on either side. Try again.
+
+Table: [2|2][2|0][4|0][0|5]
+Head: 2 | Tail: 5
+Remaining in pool: 14
+
+--- Turn 7 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 4:[2|5] 
+Enter domino index to play (0-4), 'draw' to draw, or 'exit' to quit: 2
+That domino cannot be played on either side. Try again.
+
+Table: [2|2][2|0][4|0][0|5]
+Head: 2 | Tail: 5
+Remaining in pool: 14
+
+--- Turn 8 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 4:[2|5] 
+Enter domino index to play (0-4), 'draw' to draw, or 'exit' to quit: 4
+Play on 'head' or 'tail'? head
+Smriti  played [5|2] on the head.
+
+Table: [5|2][2|2][2|0][4|0][0|5]
+Head: 5 | Tail: 5
+Remaining in pool: 14
+
+--- Turn 9 ---
+
++++ Dristi 's Turn +++
+Dristi 's Hand: 0:[0|3] 1:[3|4] 2:[2|4] 3:[5|5] 4:[3|5] 
+Enter domino index to play (0-4), 'draw' to draw, or 'exit' to quit: 0
+That domino cannot be played on either side. Try again.
+
+Table: [5|2][2|2][2|0][4|0][0|5]
+Head: 5 | Tail: 5
+Remaining in pool: 14
+
+--- Turn 10 ---
+
++++ Dristi 's Turn +++
+Dristi 's Hand: 0:[0|3] 1:[3|4] 2:[2|4] 3:[5|5] 4:[3|5] 
+Enter domino index to play (0-4), 'draw' to draw, or 'exit' to quit: 4
+Play on 'head' or 'tail'? tail
+Dristi  played [5|3] on the tail.
+
+Table: [5|2][2|2][2|0][4|0][0|5][5|3]
+Head: 5 | Tail: 3
+Remaining in pool: 14
+
+--- Turn 11 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 
+Enter domino index to play (0-3), 'draw' to draw, or 'exit' to quit: 4
+Invalid index.
+
+Table: [5|2][2|2][2|0][4|0][0|5][5|3]
+Head: 5 | Tail: 3
+Remaining in pool: 14
+
+--- Turn 12 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 
+Enter domino index to play (0-3), 'draw' to draw, or 'exit' to quit: 3
+That domino cannot be played on either side. Try again.
+
+Table: [5|2][2|2][2|0][4|0][0|5][5|3]
+Head: 5 | Tail: 3
+Remaining in pool: 14
+
+--- Turn 13 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 
+Enter domino index to play (0-3), 'draw' to draw, or 'exit' to quit: 3
+That domino cannot be played on either side. Try again.
+
+Table: [5|2][2|2][2|0][4|0][0|5][5|3]
+Head: 5 | Tail: 3
+Remaining in pool: 14
+
+--- Turn 14 ---
+
++++ Smriti 's Turn +++
+Smriti 's Hand: 0:[0|6] 1:[6|6] 2:[3|3] 3:[4|6] 
+Enter domino index to play (0-3), 'draw' to draw, or 'exit' to quit: exit
+
+Game exited by user.
+[?2004h[0;32m@Dristi0817 [0m➜ [1;34m/workspaces/Avatar [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-10-15 21:09:03+00:00 [COMMAND_EXIT_CODE="0"]
